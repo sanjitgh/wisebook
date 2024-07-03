@@ -19,6 +19,7 @@ a {
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -567,7 +568,10 @@ header .container .row {
     height: 70px;
     background: #fff;
     border-radius: 50%;
-    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video_btn:hover .video-play-button:before{
+    animation: pulse-border 1300ms ease-out infinite !important;
 }
 
 .video-play-button:after {
@@ -765,6 +769,7 @@ header .container .row {
     font-family: 'Poppins';
     font-size: 16px;
     text-transform: uppercase;
+    color: #cb2929;
 }
 
 .s_1 {
