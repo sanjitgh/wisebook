@@ -30,6 +30,7 @@ body {
 /* header style start */
 header {
     padding: 20px 0px;
+    display: flex;
 }
 
 header .container .row {
@@ -68,6 +69,7 @@ header .container .row {
 .navbar_nav {
     display: flex;
     justify-content: end;
+    margin: 0;
 }
 
 .nav_control {
@@ -249,6 +251,11 @@ header .container .row {
     border-radius: 10px;
     margin-top: -10rem;
     background: #fff;
+    transition: .3s all ease-out;
+}
+
+.book_btn button:hover {
+    box-shadow: 0px 0px 15px 0px #c018262e;
 }
 
 .book_btn img {
