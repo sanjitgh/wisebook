@@ -506,12 +506,12 @@
     }
 
     .words_box {
-        padding: 30px 20px;
+        padding: 25px 10px 10px 10px;
     }
 
     .owl-item.active.center {
-    padding-left: 6px;
-    padding-right: 29px;
+    padding-left: 7px;
+    padding-right: 31px;
     }
 
     .s_11 {
