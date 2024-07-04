@@ -121,11 +121,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function moveImages() {
       if (isMoved) {
-          image1.style.left = '0px';
-          image2.style.left = '0px';
+          image1.style.left = '15px';
+          image2.style.left = '-15px';
       } else {
-          image1.style.left = '45px';
-          image2.style.left = '-45px';
+          image1.style.left = '60px';
+          image2.style.left = '-50px';
       }
       isMoved = !isMoved;
   }

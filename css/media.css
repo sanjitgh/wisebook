@@ -679,15 +679,6 @@
         top: -14px;
     }
 
-    .tramp_book_img:hover .tr_img_one {
-        /* left: 0px; */
-        /* transform: translate(-15px, -30px); */
-    }
-
-    .tramp_book_img:hover .tr_img_two {
-        /* right: 0px; */
-        /* transform: translate(15px, 30px); */
-    }
     .owl-dots {
         margin-top: -2rem;
     }
