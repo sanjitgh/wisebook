@@ -202,10 +202,6 @@ header .container .row {
     transform: scale(0.6);
 }
 
-.s_8_m {
-    display: none;
-}
-
 .s_9 {
     position: absolute;
     top: -6rem;

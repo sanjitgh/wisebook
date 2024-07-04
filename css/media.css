@@ -438,7 +438,10 @@
     }
 
     .s_8 {
-        display: none;
+    opacity: 0.6;
+    right: -19rem;
+    top: -22rem;
+    transform: scale(0.5);
     }
 
     .book_btn img {
@@ -453,7 +456,7 @@
     .s_9_m {
         display: block;
         position: absolute;
-        top: -15rem;
+        top: -9rem;
         z-index: 11;
         width: 100%;
     }
@@ -612,15 +615,6 @@
         font-size: 16px;
     }
 
-    .s_8_m {
-        display: block;
-        position: absolute;
-        top: -8rem;
-        z-index: 2;
-        right: 0;
-        opacity: 0.5;
-    }
-
     .progress_content p {
         font-size: 14px;
     }
@@ -686,14 +680,13 @@
     }
 
     .tramp_book_img:hover .tr_img_one {
-        left: 0px;
-        transform: translate(-15px, -30px);
-        
+        /* left: 0px; */
+        /* transform: translate(-15px, -30px); */
     }
 
     .tramp_book_img:hover .tr_img_two {
-        right: 0px;
-        transform: translate(15px, 30px);
+        /* right: 0px; */
+        /* transform: translate(15px, 30px); */
     }
     .owl-dots {
         margin-top: -2rem;
@@ -702,7 +695,11 @@
         margin-top: -1rem;
     }
     .trump_book {
-        margin-top: 17rem;
+        margin-top: 14rem;
+    }
+    #image1, #image2 {
+        position: relative;
+        transition: 0.3s all ease-out;
     }
 }
 
@@ -710,6 +707,12 @@
 @media (max-width:450px) {
     .pre_sale_header {
         margin-bottom: 10rem;
+    }
+}
+
+@media (max-width:400px) {
+    .s_9_m {
+        top: -11rem;
     }
 }
 
