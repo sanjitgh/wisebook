@@ -697,10 +697,10 @@
     .trump_book {
         margin-top: 14rem;
     }
-    
+
     #image1, #image2 {
         position: relative;
-        transition: all 0.3s ease;
+        transition: .3s all ease-out;
     }
     
     #image1 {
