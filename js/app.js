@@ -4,6 +4,7 @@ $(document).ready(function(){
     items:2,
     center:true,
     loop:true,
+    dots:false,
     nav:true,
     navText: ['<i class="fa-solid fa-arrow-left-long"></i>','<i class="fa-solid fa-arrow-right-long"></i>'],
     margin:20,

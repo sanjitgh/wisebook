@@ -444,6 +444,7 @@ header .container .row {
 
 .owl-carousel .owl-stage-outer {
     padding-bottom: 35px;
+    padding-right: 0;
 }
 
 .other_words {
@@ -506,6 +507,7 @@ header .container .row {
     color: #FC1111;
     text-align: center;
     bottom: -50px;
+    padding: 0;
 }
 
 .owl-nav .owl-prev i {
