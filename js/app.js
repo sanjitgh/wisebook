@@ -122,10 +122,10 @@ document.addEventListener("DOMContentLoaded", function() {
   function moveImages() {
       if (isMoved) {
           image1.style.left = '0px';
-          image2.style.right = '0px';
+          image2.style.left = '0px';
       } else {
-          image1.style.left = '50px';
-          image2.style.right = '50px';
+          image1.style.left = '45px';
+          image2.style.left = '-45px';
       }
       isMoved = !isMoved;
   }
@@ -133,3 +133,4 @@ document.addEventListener("DOMContentLoaded", function() {
   image1.addEventListener('click', moveImages);
   image2.addEventListener('click', moveImages);
 });
+
