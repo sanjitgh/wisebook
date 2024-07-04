@@ -701,6 +701,17 @@
     #image2 {
         left: 0; /* Initial position */
     }
+    ::-webkit-scrollbar {
+        width: inherit;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: inherit;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: inherit;
+    }
 }
 
 /* 575end */
