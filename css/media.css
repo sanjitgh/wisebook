@@ -468,6 +468,8 @@
     .single_product {
         padding-left: 5px;
         padding-right: 5px;
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
 
     .pre_sale {
