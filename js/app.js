@@ -1,4 +1,4 @@
-// owl carosel 
+// owl carousel 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     items: 2,
