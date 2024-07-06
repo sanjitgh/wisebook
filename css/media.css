@@ -127,6 +127,12 @@
     }
 }
 
+@media (max-width: 1280px) {
+    .s_13 {
+        top: -4rem;
+    }
+}
+
 /* 1399end */
 @media (max-width:1199px) {
     .book_content {
