@@ -802,6 +802,7 @@ header .container .row {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    padding: 0;
 }
 
 .f_copy {
