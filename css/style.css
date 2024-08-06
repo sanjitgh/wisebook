@@ -368,16 +368,13 @@ header .container .row {
     position: relative;
 }
 
-.progress_bar::after {
-    content: '';
+.progress_bar span {
+    display: block;
     position: absolute;
     left: 0;
-    width: 30%;
     height: 14px;
     background-color: #FC1111;
-    border-start-start-radius: 100px;
-    border-bottom-left-radius: 100px;
-
+    border-radius: 100px;
 }
 
 .progress_content p {
@@ -834,8 +831,7 @@ header .container .row {
 .s_4 {
     position: absolute;
     left: -54rem;
-    top: 30rem;
-    opacity: 1;
+    top: 20rem;
 }
 
 .s_5 {

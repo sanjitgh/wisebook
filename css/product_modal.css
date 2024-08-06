@@ -243,6 +243,7 @@ form button:hover {
     align-items: center;
     width: 90%;
     margin-top: 23px;
+    align-items: center;
 }
 
 .payment_alert_wrapper img {
@@ -254,6 +255,7 @@ form button:hover {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 14px;
+    margin: 0;
 }
 
 .congratulations {
