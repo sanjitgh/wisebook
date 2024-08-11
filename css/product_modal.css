@@ -51,6 +51,7 @@
     font-family: 'Poppins';
     font-weight: 400;
     color: black;
+    margin-bottom: 3rem;
 }
 
 .product-image {
@@ -60,6 +61,13 @@
     border-radius: 5px;
 }
 
+.first_stape_left_item{
+    width: 35%;
+}   
+
+.first_stape_right_item{
+    width: 65%;
+}
 .quantity {
     display: flex;
     justify-content: center;
@@ -319,12 +327,12 @@ form button:hover {
         right: 8px;
     }
     .quantity {
-        padding: 6px 10px;
+        padding: 4px 2px;
         width: auto;
     }
     .pre_order_btn {
-        padding: 10px 10px;
-        width: 120px;
+        padding: 6px 2px;
+        width: 110px;
         font-size: 14px;
     }
     .quantity {
@@ -335,7 +343,8 @@ form button:hover {
 @media (max-width:575px) {
     .btn_quantity {
         bottom: -7px;
-        left: 43%;
+        left: 100%;
+        transform: translateX(-100%);
     }
     .first_stape_right_item {
         margin-top: 1rem;

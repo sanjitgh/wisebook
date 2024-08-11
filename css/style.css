@@ -565,10 +565,15 @@ header .container .row {
     margin-bottom: 40px;
 }
 
-.about_content img {
-    filter: grayscale(1);
-    width: 350px;
-    margin-left: -15px;
+.about_button{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_button img {
+    filter: grayscale(1) opacity(0.6);
+    margin-left: 20px;
 }
 
 .about_video {
@@ -792,7 +797,7 @@ header .container .row {
 
 .footer_icons ul li i {
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .footer_icons ul {
@@ -857,6 +862,11 @@ header .container .row {
     justify-content: center;
     align-items: end;
     padding-bottom: 30px;
+}
+
+.footer_icons li a {
+    display: flex;
+    text-decoration: none;
 }
 
 /* footer style end */

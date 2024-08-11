@@ -539,12 +539,6 @@
         margin-top: -12rem;
     }
 
-    .about_content img {
-        width: 100%;
-        position: absolute;
-        bottom: 1rem !important;
-    }
-
     .s_13 {
         display: none;
     }
@@ -725,6 +719,9 @@
     
     ::-webkit-scrollbar-thumb {
         background: inherit;
+    }
+    .about_button img {
+    margin: 0;
     }
 }
 
