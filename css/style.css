@@ -82,6 +82,11 @@ header .container .row {
     font-size: 23px;
 }
 
+.navbar_nav li a {
+    display: flex;
+    text-decoration: none;
+}
+
 /* header style end */
 
 /* banner style start*/
