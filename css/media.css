@@ -46,9 +46,6 @@
     .s_8 {
         top: -8rem;
     }
-    .center_control {
-        height: 85vh;
-    }
     .s_10 {
         top: -13rem;
         left: -74rem;
@@ -321,11 +318,11 @@
 @media (max-width:767px) {
     .banner h3 {
         font-size: 38px;
-        min-height: 100px;
+        min-height: 80px;
     }
 
     .center_control {
-        height: 28vh;
+        height: 37vh;
     }
 
     .book img {
@@ -413,7 +410,7 @@
 /* 767end */
 @media (max-width:575px) {
     .banner_overlay_image {
-        top: -40px;
+        top: -50px;
     }
 
     .s_7 {
@@ -651,7 +648,7 @@
         top: -60px;
     }
     .banner h3 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .other_words_header h3 {
         font-size: 30px;
@@ -722,6 +719,9 @@
     }
     .about_button img {
     margin: 0;
+    }
+    header {
+        padding: 15px 0px;
     }
 }
 

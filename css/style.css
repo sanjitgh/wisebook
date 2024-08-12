@@ -31,6 +31,9 @@ body {
 header {
     padding: 20px 0px;
     display: flex;
+    position: sticky;
+    background-color: #ffffff45;
+    backdrop-filter: blur(2px);
 }
 
 header .container .row {
@@ -70,6 +73,7 @@ header .container .row {
     display: flex;
     justify-content: end;
     margin: 0;
+    padding: 0;
 }
 
 .nav_control {
@@ -96,6 +100,7 @@ header .container .row {
     min-height: 3400px;
     z-index: 1;
     overflow: hidden;
+    margin-top: -80px;
 }
 
 .s_7 {
@@ -114,14 +119,15 @@ header .container .row {
 
 .banner_overlay_image {
     position: absolute;
-    top: -12rem;
+    top: -19rem;
     z-index: 2;
+    width: 100%;
 }
 
 .banner h3 {
     font-size: 65px;
     font-weight: 600;
-    background: #ffffffe0;
+    background: #ffffff87;
     text-align: center;
     width: 100%;
     min-height: 200px;
@@ -131,7 +137,7 @@ header .container .row {
 }
 
 .center_control {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
