@@ -1,4 +1,4 @@
-@media (max-width:1600px) {
+@media (max-width: 1600px) {
     .trump_book {
         margin-top: -25rem;
         padding-top: 27rem;
@@ -21,57 +21,70 @@
     .book {
         margin-top: -160rem;
     }
+
     .s_12 {
         top: -30rem;
     }
+
     .about {
-    margin-top: -8rem;
+        margin-top: -8rem;
     }
+
     .testimonial {
         padding-top: 15rem;
     }
+
     .other_words {
         padding-top: 80px;
     }
+
     .s_1 {
         bottom: -13rem;
         left: -22rem;
     }
+
     .partner {
         margin-bottom: -45rem;
     }
-    .book_img{
+
+    .book_img {
         width: 1000px !important;
     }
+
     .s_8 {
         top: -8rem;
     }
+
     .s_10 {
         top: -13rem;
         left: -74rem;
     }
+
     .banner_overlay_image {
         top: -9rem;
     }
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
     .book_collection {
         margin-top: -8rem;
     }
+
     .s_13 {
         transform: scale(1.2) rotate(9deg);
     }
+
     .s_1 {
         left: -30rem;
     }
+
     .video-overlay iframe {
         height: 80%;
         width: 85%;
     }
 }
 
-@media (max-width:1399px) {
+@media (max-width: 1399px) {
     .nav_control {
         position: absolute;
         right: 25px;
@@ -102,23 +115,29 @@
     .s_7 {
         top: 0rem;
     }
+
     .pre_sale {
         padding-top: 39rem;
         padding-bottom: 5rem;
     }
+
     .testimonial {
         padding-top: 16rem;
     }
+
     .s_13 {
-        top: 0;
+        top: 0px;
     }
+
     .book_collection {
         margin-top: -17rem;
     }
+
     .s_1 {
         left: -30rem;
         transform: rotate(11deg);
     }
+
     .s_9 {
         top: 16rem;
     }
@@ -130,8 +149,7 @@
     }
 }
 
-/* 1399end */
-@media (max-width:1199px) {
+@media (max-width: 1199px) {
     .book_content {
         width: 55rem;
     }
@@ -156,24 +174,27 @@
     .s_9 {
         top: -14rem;
     }
+
     .s_8 {
         left: -15rem;
         opacity: 0.3;
     }
+
     .testimonial {
         padding-top: 17rem;
     }
+
     .about {
         margin-top: -10rem;
     }
+
     .video-overlay iframe {
         width: 90%;
         height: 38%;
     }
 }
 
-/* 1199end */
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .s_9 {
         top: -9rem;
         z-index: 2;
@@ -199,34 +220,41 @@
         top: -23rem;
         right: -22rem;
     }
+
     .s_13 {
         top: -35rem;
     }
+
     .partner {
         margin-bottom: -52rem;
     }
+
     .book_img {
         width: 598px !important;
     }
+
     .s_13 {
         top: -25rem;
     }
+
     .center_control {
         height: 50vh;
     }
+
     .book_collection {
         margin-top: -7rem;
     }
+
     .s_1 {
         left: -48rem;
     }
+
     .book_btn button {
         margin-top: -35rem;
     }
 }
 
-/* 1024end */
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .s_7 {
         width: 300px;
         right: 88rem;
@@ -275,54 +303,65 @@
     .book_btn img {
         width: 90px;
     }
+
     .pre_sale_header {
         margin-bottom: 15rem;
     }
+
     .pre_sale {
         padding-bottom: 10rem;
         padding-top: 20rem;
     }
+
     .testimonial {
         padding-top: 0rem;
     }
+
     .s_13 {
         top: -54rem;
     }
+
     .s_15 {
         display: none;
     }
+
     .s_16 {
         display: none;
     }
+
     .about {
-        background: #fff;
+        background: rgb(255, 255, 255);
     }
+
     .book_collection {
-        background-color: #fff;
+        background-color: rgb(255, 255, 255);
     }
+
     .center_control {
         height: 500px;
     }
+
     .tramp_book_img {
         height: 820px;
     }
+
     .about_content h3 {
         font-size: 35px;
     }
+
     .banner_overlay_image {
         top: -5rem;
     }
 }
 
-/* 991end */
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .banner h3 {
         font-size: 38px;
         min-height: 80px;
     }
 
     .center_control {
-        height: 37vh;
+        height: 39vh;
     }
 
     .book img {
@@ -363,7 +402,7 @@
 
     .single_product button {
         width: 90%;
-        padding: 10px 0;
+        padding: 10px 0px;
         font-size: 16px;
     }
 
@@ -381,36 +420,43 @@
         right: -57rem;
         opacity: 0.5;
     }
+
     .s_9 {
         top: -38rem;
     }
+
     .s_8 {
         top: -27rem;
     }
+
     .s_13 {
         top: -77rem;
     }
+
     .about_content {
         margin-bottom: 2rem;
     }
+
     .book {
         margin-top: -182rem;
     }
+
     .single_product h4 {
         font-size: 20px;
     }
+
     .tes_content p {
         width: auto;
     }
+
     .video-overlay iframe {
         height: 42%;
     }
 }
 
-/* 767end */
-@media (max-width:575px) {
+@media (max-width: 575px) {
     .banner_overlay_image {
-        top: -50px;
+        top: 0;
     }
 
     .s_7 {
@@ -447,10 +493,10 @@
     }
 
     .s_8 {
-    opacity: 0.6;
-    right: -19rem;
-    top: -22rem;
-    transform: scale(0.5);
+        opacity: 0.6;
+        right: -19rem;
+        top: -22rem;
+        transform: scale(0.5);
     }
 
     .book_btn img {
@@ -465,7 +511,7 @@
     .s_9_m {
         display: block;
         position: absolute;
-        top: -9rem;
+        top: -6rem;
         z-index: 11;
         width: 100%;
     }
@@ -475,10 +521,7 @@
     }
 
     .single_product {
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 60px;
-        padding-bottom: 40px;
+        padding: 60px 5px 40px;
     }
 
     .pre_sale {
@@ -510,17 +553,18 @@
         font-size: 16px;
         margin-top: -20px;
     }
+
     .tes_content img {
         width: 120px;
     }
 
     .words_box {
-        padding: 25px 10px 10px 10px;
+        padding: 25px 10px 10px;
     }
 
     .owl-item.active.center {
-    padding-left: 7px;
-    padding-right: 30px;
+        padding-left: 7px;
+        padding-right: 30px;
     }
 
     .s_11 {
@@ -623,61 +667,78 @@
     .progress_content p {
         font-size: 14px;
     }
+
     .single_product button {
         width: 85%;
-        padding: 7px 0;
+        padding: 7px 0px;
         font-size: 15px;
     }
+
     .testimonial {
-    margin-top: -23rem;
+        margin-top: -23rem;
     }
+
     .pre_sale_header h3 {
         font-size: 40px;
     }
+
     .about_content h3 {
         font-size: 35px;
     }
+
     .partner_btn {
         padding: 13px 55px;
         font-size: 16px;
     }
+
     .book_img {
         width: 100% !important;
     }
+
     .banner_overlay_image_long {
-        top: -60px;
+        top: 0;
     }
+
     .banner h3 {
         font-size: 26px;
     }
+
     .other_words_header h3 {
         font-size: 30px;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
+
     .footer {
         margin-top: 5rem;
     }
+
     .trump_section h6 {
         margin-bottom: 22px;
     }
+
     .video-overlay iframe {
-    width: 98%;
-    height: 26%;
+        width: 98%;
+        height: 26%;
     }
+
     .words_box p {
         font-weight: 400;
     }
+
     .book_collection {
         margin-top: 0rem;
     }
+
     .tramp_book_img {
         height: 375px;
         margin-top: -10rem;
     }
+
     .tr_img_one {
         width: 65%;
         left: 25px;
     }
+
     .tr_img_two {
         width: 75%;
         right: 25px;
@@ -687,89 +748,104 @@
     .owl-dots {
         margin-top: -2rem;
     }
+
     .book_btn button {
         margin-top: -1rem;
     }
+
     .trump_book {
         margin-top: 14rem;
     }
 
-    #image1, #image2 {
-        position: relative;
-        transition: .3s all ease-out;
-    }
-    
-    #image1 {
-        left: 0; /* Initial position */
-    }
-    
+    #image1,
     #image2 {
-        left: 0; /* Initial position */
+        position: relative;
+        transition: 0.3s ease-out;
     }
+
+    #image1 {
+        left: 0px;
+    }
+
+    #image2 {
+        left: 0px;
+    }
+
     ::-webkit-scrollbar {
         width: inherit;
     }
-    
+
     ::-webkit-scrollbar-track {
         background-color: inherit;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         background: inherit;
     }
+
     .about_button img {
-    margin: 0;
+        margin: 0px;
     }
+
     header {
         padding: 15px 0px;
     }
 }
 
-/* 575end */
-@media (max-width:450px) {
+@media (max-width: 450px) {
     .pre_sale_header {
         margin-bottom: 10rem;
     }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
     .s_9_m {
-        top: -11rem;
+        top: -8rem;
     }
 }
 
-@media (max-width:380px) {
+@media (max-width: 380px) {
     .partner {
         margin-top: 21rem;
         padding-bottom: 2rem;
     }
+
     .s_9_m {
-        top: -16rem;
+        top: -10rem;
     }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
     .s_1_m {
-        bottom: 0;
+        bottom: 0px;
     }
+
     .partner {
         margin-top: 5rem;
     }
+
     .s_13_m {
         top: -30rem;
     }
 }
 
-@media (max-width:350px) {
+@media (max-width:375px) {
+    .center_control {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 350px) {
     .partner h3 {
         font-size: 35px;
     }
+
     .partner {
         margin-top: 15rem;
     }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
     .book_content {
         width: 19rem;
     }
