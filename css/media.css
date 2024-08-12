@@ -790,6 +790,9 @@
     header {
         padding: 15px 0px;
     }
+    .about_button {
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 450px) {
