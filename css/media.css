@@ -61,7 +61,7 @@
     }
 
     .banner_overlay_image {
-        top: -9rem;
+        top: -11rem;
     }
 }
 
@@ -851,5 +851,38 @@
 @media (max-width: 320px) {
     .book_content {
         width: 19rem;
+    }
+}
+
+@media screen and (max-width:1380px) and (min-width:1280px) {
+    .book {
+        margin-top: -158rem;
+    }
+    .book_btn {
+        position: absolute;
+        bottom: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .trump_book {
+        padding-top: 18rem;
+    }
+    .s_9 {
+        top: 7rem;
+    }
+    .pre_sale {
+        padding-top: 33rem;
+    }
+    .testimonial {
+        padding-top: 5rem;
+    }
+    .book_collection {
+        margin-top: -7rem;
+    }
+    .s_12 {
+        top: -20rem;
+    }
+    .s_13 {
+        top: 2rem;
     }
 }
