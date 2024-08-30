@@ -1,7 +1,7 @@
 @media (max-width: 1600px) {
     .trump_book {
         margin-top: -25rem;
-        padding-top: 27rem;
+        padding-top: 15rem;
     }
 
     .s_7 {
@@ -31,7 +31,7 @@
     }
 
     .testimonial {
-        padding-top: 15rem;
+        padding-top: 4rem;
     }
 
     .other_words {
@@ -81,6 +81,12 @@
     .video-overlay iframe {
         height: 80%;
         width: 85%;
+    }
+    .s_12 {
+        top: -36rem;
+    }
+    .testimonial {
+        padding-top: 0;
     }
 }
 
@@ -234,7 +240,7 @@
     }
 
     .s_13 {
-        top: -25rem;
+        top: -28rem;
     }
 
     .center_control {
@@ -251,6 +257,9 @@
 
     .book_btn button {
         margin-top: -35rem;
+    }
+    .testimonial {
+        padding-top: 0rem;
     }
 }
 
@@ -274,7 +283,7 @@
     }
 
     .trump_book {
-        margin-top: -16rem;
+        margin-top: -14rem;
     }
 
     .s_9 {
@@ -287,7 +296,7 @@
     }
 
     .book {
-        margin-top: -172rem;
+        margin-top: -175rem;
     }
 
     .s_8 {
@@ -318,7 +327,7 @@
     }
 
     .s_13 {
-        top: -54rem;
+        top: -45rem;
     }
 
     .s_15 {
@@ -352,6 +361,19 @@
     .banner_overlay_image {
         top: -5rem;
     }
+    .about_button img {
+        margin-left: 0px;
+    }
+    .s_12 {
+        top: -30rem;
+    }
+    .single_product {
+        margin-bottom: 0;
+    }
+    .pre_sale .row:last-child {
+        row-gap: 12rem;
+    }
+    
 }
 
 @media (max-width: 767px) {
