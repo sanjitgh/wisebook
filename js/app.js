@@ -134,3 +134,5 @@ document.addEventListener("DOMContentLoaded", function() {
   image2.addEventListener('click', moveImages);
 });
 
+// parallax 
+var rellax = new Rellax('.rellax');
