@@ -474,7 +474,8 @@
 
 @media (max-width: 575px) {
     .banner_overlay_image {
-        top: 5px;
+        top: 21px;
+        transform: scale(1.16);
     }
 
     .s_7 {
@@ -503,7 +504,7 @@
     }
 
     .book {
-        margin-top: -188rem;
+        margin-top: -186rem;
     }
 
     .s_9 {
