@@ -251,7 +251,7 @@
         left: -48rem;
     }
 
-    .book_btn button {
+    .book_btn a {
         margin-top: -35rem;
     }
     .testimonial {
@@ -369,7 +369,7 @@
     .pre_sale .row:last-child {
         row-gap: 12rem;
     }
-    
+
 }
 
 @media (max-width: 767px) {
@@ -398,7 +398,7 @@
         margin-top: 15rem;
     }
 
-    .book_btn button {
+    .book_btn a {
         margin-top: -2rem;
     }
 
@@ -504,7 +504,7 @@
     }
 
     .book {
-        margin-top: -188rem;
+        margin-top: -185rem;
     }
 
     .s_9 {
@@ -745,12 +745,12 @@
     }
 
     .book_collection {
-        margin-top: 0rem;
+        margin-top: -100px;
     }
 
     .tramp_book_img {
         height: 375px;
-        margin-top: -10rem;
+        margin-top: -12rem;
     }
 
     .tr_img_one {
@@ -768,7 +768,7 @@
         margin-top: -2rem;
     }
 
-    .book_btn button {
+    .book_btn a {
         margin-top: -1rem;
     }
 
