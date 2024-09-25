@@ -136,3 +136,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // parallax 
 var rellax = new Rellax('.rellax');
+
+// toggle 
+let menutoggle = document.querySelector('.toggle');
+    menutoggle.onclick = function () {
+      menutoggle.classList.toggle('active')
+    }

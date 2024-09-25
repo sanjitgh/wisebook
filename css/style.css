@@ -91,6 +91,90 @@ header .container .row {
     text-decoration: none;
 }
 
+.mobile_menu{
+    display: none;
+}
+
+.mobile_menu .nav-link {
+    background: red;
+    border-bottom: 1px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.mobile_menu .nav-link:last-child{
+    border-bottom: none;
+}
+.mobile_menu .navbar-collapse {
+    position: absolute;
+    top: 51px;
+    right: 10px;
+}
+
+/* nav toggle */
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .toggle span {
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background: #e93f3f;
+    border-radius: 10px;
+    transition: 0.5s;
+    left: 15px;
+  }
+  
+  .toggle span:nth-child(1) {
+    transform: translateY(-15px);
+    width: 20px;
+    left: 15px;
+  }
+  
+  .toggle.active span:nth-child(1) {
+    width: 40px;
+    transform: translateY(0) rotate(45deg);
+    transition-delay: 0.125s;
+  }
+  
+  .toggle span:nth-child(2) {
+    transform: translateY(15px);
+    width: 15px;
+    left: 15px;
+  }
+  
+  .toggle.active span:nth-child(2) {
+    width: 40px;
+    transform: translateY(0) rotate(315deg);
+    transition-delay: 0.25s;
+  }
+  
+  .toggle.active span:nth-child(3) {
+    transform: translateX(60px);
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* nav toggle */
+
 /* header style end */
 
 /* banner style start*/

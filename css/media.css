@@ -470,6 +470,16 @@
     .video-overlay iframe {
         height: 42%;
     }
+    .navbar_nav{
+        display: none;
+    }
+    .mobile_menu{
+        display: block;
+        padding: 0;
+        position: absolute;
+        top: -24px;
+        right: 12px;
+    }
 }
 
 @media (max-width: 575px) {
