@@ -1,0 +1,186 @@
+.single_product_view {
+    padding: 50px 0;
+}
+
+.product-page {
+    display: flex;
+    gap: 20px;
+}
+
+.product-main-image {
+    width: 100%;
+    max-height: 650px;
+    display: block;
+}
+
+.thumbnail-section {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.product-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #262D3C;
+    font-family: "Poppins", sans-serif;
+}
+
+.couple_text {
+    text-decoration: none;
+    color: #ADB4BF;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.product-price {
+    font-size: 40px;
+    font-weight: 600;
+    color: #262D3C;
+    margin: 0px 0px 55px 0px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.product_feature_list {
+    padding: 0;
+    margin: 30px 0;
+}
+
+.product_feature_list li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.product-description {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.product-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.product-form select {
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #ddd;
+    outline: none;
+}
+
+.pre_order_button {
+    border-radius: 100px;
+    background-color: #262D3C;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    transition: .2s ease-in;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.pre_order_button:hover {
+    background-color: #CB2929;
+}
+
+.btn_share {
+    border: none;
+}
+
+.modal-header {
+    padding: 20px 20px 0px;
+    border: none;
+}
+
+.modal-header>h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #262D3C;
+}
+
+.modal-body {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+
+.modal-body img {
+    max-width: 150px;
+}
+
+.links_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.share_item {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+
+.share_item a {
+    color: #262D3C;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.share_item i {
+    font-size: 20px;
+}
+
+.modal-dialog {
+    max-width: 650px;
+}
+
+/*********** media quarry for single product ************/
+
+@media (max-width: 767px) {
+    .navbar_nav {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+        padding: 0;
+        position: absolute;
+        top: -24px;
+        right: 12px;
+    }
+
+    .product-title {
+        font-size: 32px;
+    }
+
+    .product-price {
+        font-size: 25px;
+        margin: 0px 0px 30px 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        padding: 15px 0px;
+    }
+
+    .pre_order_button {
+
+        padding: 12px 20px;
+
+    }
+
+    .thumbnail {
+        width: 130px;
+        height: 130px;
+    }
+}

@@ -114,20 +114,20 @@ function closePopup() {
 new WOW().init();
 
 // Moveable Image
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const image1 = document.getElementById('image1');
   const image2 = document.getElementById('image2');
   let isMoved = false;
 
   function moveImages() {
-      if (isMoved) {
-          image1.style.left = '15px';
-          image2.style.left = '-15px';
-      } else {
-          image1.style.left = '60px';
-          image2.style.left = '-50px';
-      }
-      isMoved = !isMoved;
+    if (isMoved) {
+      image1.style.left = '15px';
+      image2.style.left = '-15px';
+    } else {
+      image1.style.left = '60px';
+      image2.style.left = '-50px';
+    }
+    isMoved = !isMoved;
   }
 
   image1.addEventListener('click', moveImages);
@@ -139,6 +139,6 @@ var rellax = new Rellax('.rellax');
 
 // toggle 
 let menutoggle = document.querySelector('.toggle');
-    menutoggle.onclick = function () {
-      menutoggle.classList.toggle('active')
-    }
+menutoggle.onclick = function () {
+  menutoggle.classList.toggle('active')
+}
