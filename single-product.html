@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/single-product.css" />
     <title>Product Details</title>
   </head>
+
   <body>
     <!-- don't need to copy this -->
     <header class="z_index">
@@ -161,7 +162,7 @@
               </ul>
 
               <form class="product-form my-3">
-                <div class="d-flex gap-3">
+                <div class="d-flex flex-column flex-sm-row gap-3">
                   <select id="quality" name="quality" class="w-100">
                     <option value="standard">Standard</option>
                     <option value="premium">Premium</option>
@@ -181,21 +182,21 @@
                 </div>
 
                 <div
-                  class="d-flex justify-content-between align-items-center mt-5"
+                  class="d-flex flex-column flex-sm-row justify-content-between gap-3 mt-sm-5 mt-3"
                 >
-                  <div class="mb-0">
-                    <span class="me-2"
-                      ><img src="image/path.png" class="mr-3 couple_img" alt=""
-                    /></span>
-                    <span
-                      ><a href="#" class="couple_text"
-                        >Apply reference code</a
-                      ></span
-                    >
+                  <div class="w-100">
+                    <input
+                      class="form-control w-100 ref_code"
+                      type="text"
+                      placeholder="Apply reference code"
+                    />
                   </div>
-                  <button type="button" class="pre_order_button">
-                    Add to Cart
-                  </button>
+
+                  <div class="w-100 text-sm-end text-center">
+                    <button type="button" class="pre_order_button">
+                      Add to Cart
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>
@@ -204,43 +205,7 @@
       </div>
     </section>
 
-    <!-- Pop-Up -->
-
-    <div
-      class="modal fade"
-      id="exampleModalToggle"
-      aria-hidden="true"
-      aria-labelledby="exampleModalToggleLabel"
-      tabindex="-1"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
-              Modal 1
-            </h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            Show a second modal and hide this one with the button below.
-          </div>
-          <div class="modal-footer">
-            <button
-              class="btn btn-primary"
-              data-bs-target="#exampleModalToggle2"
-              data-bs-toggle="modal"
-            >
-              Open second modal
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- first Modal -->
     <div
       class="modal fade p-0"
       id="sharePopUp"
@@ -302,9 +267,13 @@
                 >
               </div>
               <div class="share_item">
-                <a href="" class="d-flex align-items-center gap-2"
-                  ><i class="fa-solid fa-code"></i> Embed</a
+                <button
+                  id="second_modal_openModal"
+                  href=""
+                  class="d-flex border-none btn_embed align-items-center gap-2"
                 >
+                  <i class="fa-solid fa-code"></i> Embed
+                </button>
               </div>
             </div>
           </div>
@@ -312,16 +281,82 @@
       </div>
     </div>
 
+    <!-- Second Modal -->
+    <div id="second_modal_myModal" class="second_modal_modal">
+      <div class="second_modal_possition">
+        <div class="second_modal_modal-content">
+          <div class="embed_container">
+            <div class="embed_left_item">
+              <h3>Embed this stay</h3>
+              <h5>Customise your code:</h5>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Hide the reviews
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Create “no follow” links
+                </label>
+              </div>
+              <h6>Copy and paste the following HTML into your website code:</h6>
+              <div class="embed-container">
+                <textarea class="embed-code" readonly>
+                  <div class="card embed_card">
+                    <img src="image/img.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="">This is tile</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </textarea>
+                <button class="copy-button" onclick="copyToClipboard()">
+                  Copy HTML
+                </button>
+              </div>
+            </div>
+            <div class="embed_right_item">
+              <div class="card embed_card">
+                <img src="image/img.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="">This is tile</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="position-relative go_back_button_container">
+            <span
+              class="second_modal_close go_back_text"
+              id="second_modal_closeModal"
+              >Go Back</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-      document.querySelectorAll(".thumbnail").forEach((thumbnail) => {
-        thumbnail.addEventListener("click", function () {
-          const mainImage = document.querySelector(".product-main-image");
-          mainImage.src = this.src;
-        });
-      });
-    </script>
+    <script src="js/singleProduct.js"></script>
   </body>
 </html>
