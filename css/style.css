@@ -214,8 +214,8 @@ header .container .row {
 }
 /* 08-31-24 update  end*/
 
-.banner h3 {
-    font-size: 65px;
+.banner-title {
+    
     font-weight: 600;
     background: #ffffff87;
     text-align: center;
@@ -224,6 +224,10 @@ header .container .row {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#banner-title{
+    max-width: 800px;
+    font-size: 65px;
 }
 
 .center_control {

@@ -373,7 +373,7 @@
 }
 
 @media (max-width: 767px) {
-    .banner h3 {
+    #banner-title {
         font-size: 38px;
         min-height: 80px;
     }
@@ -728,7 +728,7 @@
         top: 0;
     }
 
-    .banner h3 {
+    #banner-title {
         font-size: 26px;
     }
 

@@ -142,3 +142,29 @@ let menutoggle = document.querySelector('.toggle');
 menutoggle.onclick = function () {
   menutoggle.classList.toggle('active')
 }
+
+ //////////////////// banner title animation
+const text = "The GREATEST notebook for your free time.";
+const typingSpeed = 100; // Typing speed in ms
+const delayBetweenCycles = 500; // Delay before restarting
+let index = 0;
+
+function typeEffect() {
+  const titleElement = document.getElementById("banner-title");
+
+  if (index < text.length) {
+    titleElement.innerHTML += text.charAt(index);
+    index++;
+    setTimeout(typeEffect, typingSpeed);
+  } else {
+    // Pause before clearing and restarting
+    setTimeout(() => {
+      index = 0;
+      titleElement.innerHTML = "";
+      typeEffect();
+    }, delayBetweenCycles);
+  }
+}
+
+// Start typing effect on page load
+window.onload = typeEffect;
