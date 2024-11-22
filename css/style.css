@@ -975,3 +975,49 @@ header .container .row {
 }
 
 /* footer style end */
+
+
+/* modal style */
+/* modal */
+
+.offer-modal-body {
+    background: #1B1D24;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.offer-modal-header {
+    padding: 0;
+    border: none;
+}
+
+.modal_btn_close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 5;
+    background-image: url(../image/close.png);
+}
+
+.modal_btn_close:focus {
+    box-shadow: none;
+}
+
+.modal.show .modal-dialog {
+    max-width: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}

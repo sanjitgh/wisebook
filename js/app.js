@@ -168,3 +168,32 @@ function typeEffect() {
 
 // Start typing effect on page load
 window.onload = typeEffect;
+
+
+// modal show in scroll
+
+$(document).ready(function () {
+  // Check if the session cookie is set
+  if (!sessionStorage.getItem('popupShown')) {
+    var hasScrolled = false;
+
+    $(window).scroll(function () {
+      // Check if the modal has been shown and if the user has scrolled halfway down the page
+      if (!hasScrolled && $(window).scrollTop() > ($(window).height() / 2)) {
+        // Show the modal
+        $('#exampleModal').modal('show');
+
+        // Set the session cookie to indicate that the popup has been shown
+        sessionStorage.setItem('popupShown', 'true');
+
+        // Set the flag to prevent further scrolls from triggering the modal
+        hasScrolled = true;
+      }
+    });
+
+    // Add an event listener to the modal close button to clear the session cookie
+    $('#exampleModal').on('hidden.bs.modal', function () {
+      sessionStorage.removeItem('popupShown');
+    });
+  }
+});
