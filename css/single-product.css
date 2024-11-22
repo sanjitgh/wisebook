@@ -80,6 +80,7 @@
     border-radius: 8px;
     border-color: #ddd;
     outline: none;
+    max-height: fit-content;
 }
 
 .pre_order_button {
@@ -316,6 +317,17 @@
 .embed_right_item {
     width: 40%;
 }
+.hidden{
+    display: none;
+}
+
+.location_link{
+    color: #212529;
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+}
 
 /*********** media quarry for single product ************/
 
@@ -379,5 +391,8 @@
     .thumbnail {
         width: 130px;
         height: 130px;
+    }
+    .my-margin{
+        margin-top: 10px;
     }
 }

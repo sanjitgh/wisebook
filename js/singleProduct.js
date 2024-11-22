@@ -27,7 +27,7 @@ window.addEventListener('click', (event) => {
     if (event.target === secondModal) {
         secondModal.style.display = 'none';
     }
-});  
+});
 
 
 function copyToClipboard() {
@@ -35,4 +35,15 @@ function copyToClipboard() {
     embedCode.select();
     document.execCommand('copy');
     alert('HTML code copied to clipboard!');
-  }
+}
+
+const selectElement = document.getElementById('deliveryOption');
+    const localLink = document.getElementById('localLink');
+
+    selectElement.addEventListener('change', () => {
+      if (selectElement.value === 'pickup') {
+        localLink.classList.remove('d-none'); // Show the link
+      } else {
+        localLink.classList.add('d-none'); // Hide the link
+      }
+    })

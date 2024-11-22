@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Link Example</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <select class="w-100" id="deliveryOption">
+    <option value="home-delivery">Outside</option>
+    <option value="pickup">Local</option>
+  </select>
+
+  <a href="#" id="localLink" class="hidden">Visit Local Store</a>
+
+  <script>
+    const selectElement = document.getElementById('deliveryOption');
+    const localLink = document.getElementById('localLink');
+
+    selectElement.addEventListener('change', () => {
+      if (selectElement.value === 'pickup') {
+        localLink.classList.remove('hidden'); 
+      } else {
+        localLink.classList.add('hidden'); 
+      }
+    });
+  </script>
+</body>
+</html>
