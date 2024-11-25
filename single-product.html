@@ -26,7 +26,7 @@
     <title>Product Details</title>
   </head>
 
-  <body>
+  <body class="nasted_class">
     <!-- don't need to copy this -->
     <header class="z_index">
       <div class="container">
@@ -288,6 +288,13 @@
     <div id="second_modal_myModal" class="second_modal_modal">
       <div class="second_modal_possition">
         <div class="second_modal_modal-content">
+          <div class="position-relative go_back_button_container">
+            <span
+              class="second_modal_close go_back_text"
+              id="second_modal_closeModal"
+              >☓</span
+            >
+          </div>
           <div class="embed_container">
             <div class="embed_left_item">
               <h3>Embed this stay</h3>
@@ -320,25 +327,27 @@
               <h6>Copy and paste the following HTML into your website code:</h6>
               <div class="embed-container">
                 <textarea class="embed-code" id="embedCode" readonly>
-                  <div class="card embed_card">
-                    <img src="image/img.png" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <a class="embed_card_title" href="">This is tile</a>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and make
-                        up the bulk of the card's content.
-                      </p>
+                  <iframe 
+                    src="https://shohaghasan.com/wisebook-v2/embed-card.html" 
+                    frameborder="0" 
+                    width="400" 
+                    height="100%">
+                    <div class="card embed_card">
+                      <img 
+                        src="https://shohaghasan.com/wisebook-v2/image/img.png" 
+                        class="card-img-top" 
+                        alt="..." 
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">This is tile</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and make 
+                          up the bulk of the card's content.
+                        </p>
+                      </div>
                     </div>
-                    <div class="divider"></div>
-                    <div
-                      class="flex justify-content-between align-items-center p-3"
-                    >
-                      <a href="" class="view_link">View on Wisebook</a>
-                      <span class="star_icon">
-                        <i class="fa-solid fa-star"></i>
-                      </span>
-                    </div>
-                  </div>
+                    </iframe>
+
                 </textarea>
                 <div class="position-relative">
                   <button class="copy-button" onclick="copyToClipboard()">
@@ -369,13 +378,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="position-relative go_back_button_container">
-            <span
-              class="second_modal_close go_back_text"
-              id="second_modal_closeModal"
-              >Go Back</span
-            >
           </div>
         </div>
       </div>
