@@ -300,6 +300,7 @@ l {
     overflow: auto;
     background-color: transparent;
 }
+
 .copy-button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -358,7 +359,7 @@ l {
     background-color: #ADB4BF;
 }
 
-.embed_card_title{
+.embed_card_title {
     text-decoration: none;
     font-size: 22px;
     color: #262D3C;
@@ -375,12 +376,28 @@ l {
     transition: right 0.3s ease;
     font-size: 14px;
     display: none;
-  }
+}
 
-  .show-alert {
-    display: block; 
-  }
+.show-alert {
+    display: block;
+}
+.nasted_footer_class .footer{
+    background-color: #fff;
+    padding: 120px 0px 30px;
+}
+.nasted_footer_class .footer .container {
+    min-height: auto;
+    padding: 0;
+}
 
+.nasted_footer_class .footer .s_1,
+.s_1_m,
+.s_3,
+.s_4,
+.s_5,
+.s_6 {
+    display: none;
+}
 
 /*********** media quarry for single product ************/
 
