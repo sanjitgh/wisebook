@@ -13,7 +13,6 @@
 
 .product-main-image {
     width: 100%;
-    max-height: 650px;
     display: block;
 }
 
@@ -102,8 +101,9 @@
 }
 
 .modal-header {
-    padding: 20px 20px 0px;
+    padding: 30px 30px 0px;
     border: none;
+    padding-bottom: 0;
 }
 
 .modal-header>h1 {
@@ -114,10 +114,11 @@
 
 .modal-body {
     font-family: "Poppins", sans-serif;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 10px;
 }
 
-.first-modal{
+.first-modal {
     background-color: white;
 }
 
@@ -283,6 +284,7 @@
     background: #fff;
     padding: 10px;
     border-radius: 8px;
+    position: relative;
 }
 
 .embed-code {
@@ -296,7 +298,6 @@
     overflow: auto;
     background-color: transparent;
 }
-
 .copy-button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -318,14 +319,25 @@
     box-shadow: 0px 10px 15px #0000001c;
 }
 
+.view_link {
+    text-decoration: none;
+    color: #262D3C;
+}
+
+.star_icon {
+    color: #CB2929;
+    font-size: 18px;
+}
+
 .embed_right_item {
     width: 40%;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
 
-.location_link{
+.location_link {
     color: #212529;
     position: absolute;
     left: 50%;
@@ -333,11 +345,61 @@
     transform: translateX(-50%);
 }
 
+.card.embed_card img {
+    max-width: 250px;
+    margin: auto;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ADB4BF;
+}
+
+.embed_card_title{
+    text-decoration: none;
+    font-size: 22px;
+    color: #262D3C;
+}
+
+.custom-alert {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #000000;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: right 0.3s ease;
+    font-size: 14px;
+    display: none;
+  }
+
+  .show-alert {
+    display: block; 
+  }
+
+
 /*********** media quarry for single product ************/
+
+@media screen and (max-width:1280px) {
+    .product-title {
+        font-size: 40px;
+    }
+
+    .product-price {
+        font-size: 30px;
+        margin: 0px 0px 30px 0px;
+    }
+
+}
 
 @media (max-width: 991px) {
     .product-title {
         font-size: 35px;
+    }
+    .embed-code {
+        height: 100px;
     }
 }
 
@@ -396,7 +458,12 @@
         width: 130px;
         height: 130px;
     }
-    .my-margin{
+
+    .my-margin {
         margin-top: 10px;
+    }
+
+    .second_modal_modal-content {
+        padding: 10px 15px 90px;
     }
 }

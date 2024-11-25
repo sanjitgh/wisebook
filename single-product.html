@@ -96,7 +96,6 @@
       </div>
     </header>
 
-    <!------------------ copy paste from here ------------------->
     <section class="single_product_view">
       <div class="container">
         <div class="row mb-5">
@@ -320,32 +319,53 @@
               </form> -->
               <h6>Copy and paste the following HTML into your website code:</h6>
               <div class="embed-container">
-                <textarea class="embed-code" readonly>
+                <textarea class="embed-code" id="embedCode" readonly>
                   <div class="card embed_card">
                     <img src="image/img.png" class="card-img-top" alt="..." />
                     <div class="card-body">
-                      <h5 class="">This is tile</h5>
+                      <a class="embed_card_title" href="">This is tile</a>
                       <p class="card-text">
                         Some quick example text to build on the card title and make
                         up the bulk of the card's content.
                       </p>
                     </div>
+                    <div class="divider"></div>
+                    <div
+                      class="flex justify-content-between align-items-center p-3"
+                    >
+                      <a href="" class="view_link">View on Wisebook</a>
+                      <span class="star_icon">
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
                   </div>
                 </textarea>
-                <button class="copy-button" onclick="copyToClipboard()">
-                  Copy HTML
-                </button>
+                <div class="position-relative">
+                  <button class="copy-button" onclick="copyToClipboard()">
+                    Copy HTML
+                  </button>
+                  <div id="customAlert" class="custom-alert">HTML copied!</div>
+                </div>
               </div>
             </div>
             <div class="embed_right_item">
               <div class="card embed_card">
                 <img src="image/img.png" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="">This is tile</h5>
+                  <a class="embed_card_title" href="">This is tile</a>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
+                </div>
+                <div class="divider"></div>
+                <div
+                  class="flex justify-content-between align-items-center p-3"
+                >
+                  <a href="" class="view_link">View on Wisebook</a>
+                  <span class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                  </span>
                 </div>
               </div>
             </div>

@@ -29,13 +29,29 @@ window.addEventListener('click', (event) => {
     }
 });
 
-
+///////////////////////////////////
 function copyToClipboard() {
-    const embedCode = document.querySelector('.embed-code');
-    embedCode.select();
-    document.execCommand('copy');
-    alert('HTML code copied to clipboard!');
-}
+    // Get the textarea element
+    var copyText = document.getElementById("embedCode");
+
+    // Use the Clipboard API to copy the content
+    navigator.clipboard.writeText(copyText.value).then(function() {
+      // Success callback
+      var alertBox = document.getElementById("customAlert");
+      alertBox.classList.add("show-alert");
+
+      // Hide the alert after 2 seconds
+      setTimeout(function() {
+        alertBox.classList.remove("show-alert");
+      }, 2000);
+    }).catch(function(err) {
+      // Error callback
+      alert("Failed to copy text: " + err);
+    });
+  }
+
+//   ////////////////////////////
+
 
 const selectElement = document.getElementById('deliveryOption');
     const localLink = document.getElementById('localLink');
