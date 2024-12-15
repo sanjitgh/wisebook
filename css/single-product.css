@@ -187,7 +187,7 @@
 
 .second_modal_modal-content {
     background-color: #fff;
-    padding: 30px 30px 90px;
+    padding: 45px 30px 90px;
     border: 1px solid #888;
     width: 950px;
     /* Adjust as needed */
@@ -202,8 +202,8 @@
     font-weight: bold;
     cursor: pointer;
     position: absolute;
-    top: -18px;
-    left: -10px;
+    top: -32px;
+    right: -10px;
 }
 
 .second_modal_close:hover,
@@ -390,6 +390,10 @@ l {
     padding: 0;
 }
 
+.breadcrumb{
+    text-transform: uppercase;
+}
+
 .nasted_footer_class .footer .s_1,
 .s_1_m,
 .s_3,
@@ -449,8 +453,8 @@ l {
     }
 
     .go_back_text {
-        top: -15px;
-        left: 0;
+        top: -10px;
+        right: 0;
     }
 }
 
