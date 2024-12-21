@@ -437,111 +437,116 @@
 
         <!-- Step 2: Shipping Information -->
         <div id="shippingInfo" class="form-step">
-          <div class="shipping_wrapper">
-            <div class="shipping_info_left_item">
-              <img src="image/product_img.webp" class="img-fluid" alt="" />
-              <h3>Order detail</h3>
-              <div class="d-flex justify-content-between">
-                <p>Title book</p>
-                <p>x1</p>
-              </div>
-            </div>
-            <div class="shipping_info_right_item">
-              <h2 class="shipping_info_header">Shipping Information</h2>
-              <form id="shippingForm">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    id="firstName"
-                    name="firstName"
-                    placeholder="Name"
-                    required
-                  />
-                  <input
-                    type="text"
-                    id="lastName"
-                    name="lastName"
-                    placeholder="Last Name"
-                    required
-                  />
+          <form action="">
+            <div class="shipping_wrapper">
+              <!-- left item -->
+              <div class="shipping_info_left_item">
+                <img src="image/product_img.webp" class="img-fluid" alt="" />
+                <h3>Order detail</h3>
+                <div class="d-flex justify-content-between">
+                  <p>Title book</p>
+                  <p>x1</p>
                 </div>
                 <div class="form-group">
                   <input
                     type="text"
-                    id="address"
-                    name="address"
-                    placeholder="Address #1"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    id="address"
-                    name="address"
-                    placeholder="Address #2"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <select name="" id="" required class="modal_select_option">
-                    <option value="1">Country</option>
-                    <option value="2">USA</option>
-                    <option value="2">UK</option>
-                  </select>
-                  <select name="" id="" required class="modal_select_option">
-                    <option value="1">District</option>
-                    <option value="2">Option</option>
-                    <option value="3">Option</option>
-                    <option value="4">Option</option>
-                  </select>
-                  <select name="" id="" required class="modal_select_option">
-                    <option value="1">State</option>
-                    <option value="2">Option</option>
-                    <option value="3">Option</option>
-                    <option value="4">Option</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <input
-                    type="tel"
-                    class="modal_phone_input"
-                    id="phone"
-                    name="phone"
-                    placeholder="Phone Number"
-                    required
-                  />
-                  <input
-                    type="email"
-                    class="modal_email_input"
-                    id="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="modal_email_input"
+                    class="modal_email_input w-100"
                     id="email"
                     name="email"
                     placeholder="Apply reference code"
                     required
                   />
                 </div>
-                <div class="pre_order_btn_next">
-                  <button
-                    class="pre_order_btn"
-                    type="button"
-                    onclick="nextStep('paymentInfo')"
-                  >
-                    Next
-                  </button>
+              </div>
+              <!-- right item -->
+              <div class="shipping_info_right_item">
+                <h2 class="shipping_info_header">Shipping Information</h2>
+                <div id="shippingForm">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="Name"
+                      required
+                    />
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      placeholder="Last Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="address"
+                      name="address"
+                      placeholder="Address #1"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="address"
+                      name="address"
+                      placeholder="Address #2"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <select name="" id="" required class="modal_select_option">
+                      <option value="1">Country</option>
+                      <option value="2">USA</option>
+                      <option value="2">UK</option>
+                    </select>
+                    <select name="" id="" required class="modal_select_option">
+                      <option value="1">District</option>
+                      <option value="2">Option</option>
+                      <option value="3">Option</option>
+                      <option value="4">Option</option>
+                    </select>
+                    <select name="" id="" required class="modal_select_option">
+                      <option value="1">State</option>
+                      <option value="2">Option</option>
+                      <option value="3">Option</option>
+                      <option value="4">Option</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="tel"
+                      class="modal_phone_input"
+                      id="phone"
+                      name="phone"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    <input
+                      type="email"
+                      class="modal_email_input"
+                      id="email"
+                      name="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  
+                  <div class="pre_order_btn_next">
+                    <button
+                      class="pre_order_btn"
+                      type="button"
+                      onclick="nextStep('paymentInfo')"
+                    >
+                      Next
+                    </button>
+                  </div>
                 </div>
-              </form>
+              </div>
             </div>
-          </div>
+          </form>
         </div>
 
         <!-- Step 3: Payment Information -->

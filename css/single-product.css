@@ -32,7 +32,7 @@
 }
 
 .product-title {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     color: #262D3C;
     font-family: "Poppins", sans-serif;
@@ -45,10 +45,10 @@
 }
 
 .product-price {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     color: #262D3C;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: "Poppins", sans-serif !important;
 }
 
@@ -187,9 +187,9 @@
 
 .second_modal_modal-content {
     background-color: #fff;
-    padding: 45px 30px 90px;
+    padding: 45px 30px 60px;
     border: 1px solid #888;
-    width: 950px;
+    width: 860px;
     /* Adjust as needed */
     border-radius: 8px;
     margin: 0 10px;
