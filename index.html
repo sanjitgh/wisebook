@@ -121,7 +121,6 @@
         <img src="image/banner_bg.webp" class="img-fluid" alt="" />
       </div>
 
-      <!-- 08-31-24 update & parallax add -->
       <div class="banner_overlay_image">
         <img
           src="image/banner_book.png"
@@ -447,16 +446,28 @@
                   <p>Title book</p>
                   <p>x1</p>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="modal_email_input w-100"
-                    id="email"
-                    name="email"
-                    placeholder="Apply reference code"
-                    required
-                  />
-                </div>
+
+                <form id="referenceForm">
+                  <button type="button" class="refer_btn" id="referBtn"> 
+                    <img src="image/path.png" alt="Apply Reference Code">
+                    Apply reference code
+                  </button>
+                
+                  <div class="form-group" id="referenceInput" style="display: none;">
+                    <input
+                      type="text"
+                      class="modal_email_input w-100"
+                      id="email"
+                      name="email"
+                      placeholder="Apply reference code"
+                      required
+                    />
+                  </div>
+                </form>
+                
+                
+                
+
               </div>
               <!-- right item -->
               <div class="shipping_info_right_item">

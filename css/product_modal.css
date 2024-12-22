@@ -13,11 +13,11 @@
 
 .popup-content {
     background-color: #fff;
-    padding: 45px;
+    padding: 35px;
     border-radius: 5px;
     position: relative;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    width: 1000px;
     margin: 0 10px;
 }
 
@@ -219,10 +219,11 @@ form button:hover {
 .shipping_wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .shipping_info_left_item {
-    width: 22%;
+    width: 25%;
 }
 
 .shipping_info_left_item h3 {
@@ -241,7 +242,7 @@ form button:hover {
 }
 
 .shipping_info_right_item {
-    width: 74%;
+    width: 75%;
 }
 
 .payment_alert_wrapper {
@@ -317,6 +318,18 @@ form button:hover {
     color: #FC1111;
 }
 
+.refer_btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    color: #59606F;
+}
+.refer_btn:hover{
+    background: transparent;
+}
+
 @media (max-width:767px) {
     .popup-content {
         width: 100%;
@@ -352,5 +365,8 @@ form button:hover {
     }
     .shipping_info_left_item h3 {
         font-size: 14px;
+    }
+    .refer_btn{
+        flex-direction: column;
     }
 }

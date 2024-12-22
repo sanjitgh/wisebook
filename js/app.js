@@ -143,23 +143,30 @@ menutoggle.onclick = function () {
   menutoggle.classList.toggle('active')
 }
 
- //////////////////// banner title animation
-const text = "The GREATEST notebook for your free time.";
+//////////////////// banner title animation
+const texts = [
+  "The GREATEST notebook for your free time.",
+  "Discover new possibilities with our products.",
+  "Experience innovation like never before."
+];
+
 const typingSpeed = 100; // Typing speed in ms
-const delayBetweenCycles = 500; // Delay before restarting
+const delayBetweenCycles = 1000; // Delay before restarting
 let index = 0;
+let textIndex = 0;
 
 function typeEffect() {
   const titleElement = document.getElementById("banner-title");
 
-  if (index < text.length) {
-    titleElement.innerHTML += text.charAt(index);
+  if (index < texts[textIndex].length) {
+    titleElement.innerHTML += texts[textIndex].charAt(index);
     index++;
     setTimeout(typeEffect, typingSpeed);
   } else {
-    // Pause before clearing and restarting
+    // Pause before clearing and switching to the next sentence
     setTimeout(() => {
       index = 0;
+      textIndex = (textIndex + 1) % texts.length; // Cycle through the sentences
       titleElement.innerHTML = "";
       typeEffect();
     }, delayBetweenCycles);
@@ -170,8 +177,8 @@ function typeEffect() {
 window.onload = typeEffect;
 
 
-// modal show in scroll
 
+// modal show in scroll
 $(document).ready(function () {
   // Check if the session cookie is set
   if (!sessionStorage.getItem('popupShown')) {
@@ -197,3 +204,17 @@ $(document).ready(function () {
     });
   }
 });
+
+// input refer js
+document.addEventListener("DOMContentLoaded", function () {
+  const referBtn = document.getElementById("referBtn");
+  const referenceInput = document.getElementById("referenceInput");
+
+  referBtn.addEventListener("click", function (event) {
+    event.preventDefault();
+    referBtn.style.display = "none";
+    referenceInput.style.display = "block";
+  });
+});
+
+
