@@ -185,19 +185,29 @@
                 </div>
 
                 <div
-                  class="d-flex flex-column flex-sm-row justify-content-between gap-3 mt-sm-5 mt-4"
+                  class="d-flex align-items-center justify-content-between gap-3 mt-sm-5 ref_margin"
                 >
-                  <div class="w-100 my-margin">
+                <div id="referenceForm" class="w-50">
+                  <button type="button" class="refer_btn" id="referBtn"> 
+                    <img src="image/path.png" alt="Apply Reference Code">
+                    Apply reference code
+                  </button>
+                
+                  <div class="form-group" id="referenceInput" style="display: none;">
                     <input
-                      class="form-control w-100 ref_code"
                       type="text"
+                      class="modal_email_input w-100"
+                      id="email"
+                      name="email"
                       placeholder="Apply reference code"
+                      required
                     />
                   </div>
+                </div>
 
-                  <div class="w-100 text-sm-end text-center">
+                  <div class="text-sm-end text-center">
                     <button type="button" class="pre_order_button">
-                      Add to Cart
+                      Pre Order
                     </button>
                   </div>
                 </div>

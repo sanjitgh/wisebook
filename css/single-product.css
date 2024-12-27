@@ -12,7 +12,7 @@
 }
 
 .product-main-image {
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: block;
 }
@@ -83,12 +83,19 @@
     max-height: fit-content;
 }
 
+.modal_email_input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
 .pre_order_button {
     border-radius: 100px;
     background-color: #262D3C;
     color: white;
     border: none;
-    padding: 12px 40px;
+    padding: 12px 37px;
     transition: .2s ease-in;
     font-family: "Poppins", sans-serif !important;
 }
@@ -381,16 +388,18 @@ l {
 .show-alert {
     display: block;
 }
-.nasted_footer_class .footer{
+
+.nasted_footer_class .footer {
     background-color: #fff;
     padding: 120px 0px 30px;
 }
+
 .nasted_footer_class .footer .container {
     min-height: auto;
     padding: 0;
 }
 
-.breadcrumb{
+.breadcrumb {
     text-transform: uppercase;
 }
 
@@ -401,6 +410,22 @@ l {
 .s_5,
 .s_6 {
     display: none;
+}
+
+.refer_btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    color: #59606F;
+}
+
+.refer_btn:hover {
+    background: transparent;
+}
+.ref_margin{
+    margin-top: 50px;
 }
 
 /*********** media quarry for single product ************/
